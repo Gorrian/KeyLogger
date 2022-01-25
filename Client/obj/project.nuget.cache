@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RO5og08mK2c4P8Vzj1hzJQ8LJjqHQhlx1Lxe49mlwnl3wqV1uGXtN3a35BboCOgDPm9MJf5017bYbHsAObbtHw==",
+  "dgSpecHash": "DNJ/uT3PuqFdqYlijdz8EWT48HejYLqop+1bram5EyOufGj/3nefpDItbloja4pHQRXmZdS23Hdo7qU8b569JA==",
   "success": true,
   "projectFilePath": "C:\\Users\\USUARIO\\Personal projects\\C# PROJECTS\\KeyLogger\\KeyLogger\\Client\\Client.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.12\\microsoft.netcore.app.runtime.win-x64.5.0.12.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.12\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.12.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.12\\microsoft.aspnetcore.app.runtime.win-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -26,7 +26,6 @@ namespace Client
         }
         static void Main(string[] args)
         {
-            args=new string[]{"127.0.0.1","3001"};
             Console.Clear();
             bool Error=false;
             ArrayList KeysPressed = new ArrayList();

